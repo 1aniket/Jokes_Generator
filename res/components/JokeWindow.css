@@ -1,0 +1,20 @@
+.joke-window-container
+{
+    width: 80%;
+    margin: auto;
+    margin-top: 10%;
+    background: rgba(197, 193, 193, 0.2);
+    color: white;
+    min-height: 150px;
+    border-radius: 10px;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+}
+.display
+{
+    font-size: larger;
+    font-family:cursive;
+}

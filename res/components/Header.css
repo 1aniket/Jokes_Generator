@@ -1,0 +1,44 @@
+.header-container
+{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 5%;
+    background: rgba(201, 197, 197, 0.2);
+    border-radius: 10px;
+    display: flex;
+}
+.btn button
+{
+    outline: none;
+    border: none;
+    background: rgb(255, 255, 255);
+    height: 3rem;
+    margin: 10px 0px;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: larger;
+    min-width: 150px;
+}
+.btn
+{
+    margin: auto;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    padding:0 10px;
+    transition:  100ms ease-in-out;
+    
+}
+.btn-select
+{
+    margin: auto;
+    background-color:  rgb(104, 104, 236);
+    border: 2px solid rgb(104, 104, 236);
+    border-radius: 10px;
+    padding:0 10px;
+}
+.btn:hover
+{
+    background-color:  rgb(104, 104, 236);
+}
